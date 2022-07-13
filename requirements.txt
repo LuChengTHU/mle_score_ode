@@ -1,0 +1,12 @@
+ml-collections==0.1.0
+absl-py==0.12.0
+tensorflow
+tensorflow-probability
+tensorflow-io
+tensorflow-gan
+tensorflow-datasets
+tensorflow-addons
+flax==0.3.3
+jax==0.2.18
+
+#jaxlib==0.1.69
