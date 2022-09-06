@@ -77,6 +77,9 @@ To set the order of the score matching training losses, set `--config.training.s
 ### Configurations for evaluation
 To generate samples and evaluate sample quality, use the  `--config.eval.enable_sampling` flag; to compute log-likelihoods, use the `--config.eval.enable_bpd` flag, and specify `--config.eval.dataset=train/test` to indicate whether to compute the likelihoods on the training or test dataset. Turn on `--config.eval.bound` to evaluate the variational bound for the log-likelihood. Enable `--config.eval.dequantizer` to use variational dequantization for likelihood computation. `--config.eval.num_repeats` configures the number of repetitions across the dataset (more can reduce the variance of the likelihoods; default to 5).
 
+## Pretrained checkpoints
+The pretrained checkpoints can be found in the [Released](https://github.com/LuChengTHU/mle_score_ode/releases) page.
+
 ## Train high-order DSM by pretrained checkpoints
 For VESDE on CIFAR-10, we use the pretrained checkpoints by first-order DSM in [score_sde checkpoints](https://drive.google.com/drive/folders/1RAG8qpOTURkrqXKwdAR1d6cU9rwoQYnH?usp=sharing).
 
