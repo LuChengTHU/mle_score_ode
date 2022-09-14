@@ -83,7 +83,7 @@ The pretrained checkpoints can be found in the [Released](https://github.com/LuC
 ## Train high-order DSM by pretrained checkpoints
 For VESDE on CIFAR-10, we use the pretrained checkpoints by first-order DSM in [score_sde checkpoints](https://drive.google.com/drive/folders/1RAG8qpOTURkrqXKwdAR1d6cU9rwoQYnH?usp=sharing).
 
-For VESDE on ImageNet32, as score_sde did not provide the checkpoints, we train the first-order model by ourselves, and then train the model by the high-order DSM.
+For VESDE on ImageNet32, as score_sde did not provide the checkpoints, we train the first-order model by ourselves, and then train the model by the high-order DSM. The baseline first-order ImageNet32 models are also provided in the [Released](https://github.com/LuChengTHU/mle_score_ode/releases) page.
 
 For VPSDE, we use the pretrained checkpoints by first-order DSM in [score_flow checkpoints](https://drive.google.com/drive/folders/1gbDrVrFVSupFMRoK7HZo8aFgPvOtpmqB?usp=sharing).
 
